@@ -1,0 +1,31 @@
+@mixin translateY($e){
+    -webkit-transform: translateY($e);
+     -moz-transform: translateY($e);
+        transform: translateY($e);
+}
+
+@mixin transition($e){
+    -webkit-transition: $e;
+     -moz-transition: $e;
+        transition: $e;
+}
+
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    @include transition(.4s ease-in-out);
+    cursor: pointer;
+
+    &:hover{
+        color:red;
+        @include transition(.4s ease-in-out);
+        
+    }
+}

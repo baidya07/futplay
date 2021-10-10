@@ -1,0 +1,22 @@
+.login-main-container{
+    display:flex;
+    justify-content: center;
+    
+    .login-top-container{
+        justify-content: center;
+    }
+    .login-mid-container{
+        border-radius: 25px;
+        border:1px solid lightgray;
+        padding: 20px; 
+        width: 410px;
+        height: 365px;
+        padding: 20px; 
+    }
+
+    .login-bottom-container{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}

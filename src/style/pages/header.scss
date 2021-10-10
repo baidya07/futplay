@@ -1,0 +1,40 @@
+@import "config.scss";
+
+*{
+    padding: 0;
+    margin:0
+}
+
+header{
+    position:relative;
+    display: block;
+    width: 100%;
+    background: #337396;
+    color: white;
+    height: 17vh;
+    
+    .main-container{
+        display: flex;
+
+    .container{
+        // padding-left: 15px;
+        // padding-right: 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        .title{
+            display: flex;
+            flex-flow: row;
+            font-size:1em;
+        }
+        
+        .media-links{
+            display: flex;
+            flex-flow: row-reverse;
+        }
+        
+        }
+    }
+}
+
+    
